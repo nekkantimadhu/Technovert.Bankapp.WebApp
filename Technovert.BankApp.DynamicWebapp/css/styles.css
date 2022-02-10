@@ -1,0 +1,24 @@
+﻿#header1{
+    background : #4d8ede;
+    text-decoration-color : #ffffff ;
+    text-size-adjust : auto;
+    padding : 20px;
+    
+}
+#headertext {
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+nav ul {
+    justify-content : space-between;
+}
+b{
+    color : #ffffff;
+}

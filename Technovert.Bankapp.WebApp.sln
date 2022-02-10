@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technovert.BankApp.CLI_Migr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technovert.BankApp.WebAPI", "Technovert.BankApp.WebAPI\Technovert.BankApp.WebAPI.csproj", "{B5E935E6-AEDE-4190-AF1D-EBC06FA50E21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technovert.BankApp.Webpages", "Technovert.BankApp.Webpages\Technovert.BankApp.Webpages.csproj", "{895858F1-C657-4663-A1F3-DD0EF4A69B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technovert.BankApp.DynamicWebapp", "Technovert.BankApp.DynamicWebapp\Technovert.BankApp.DynamicWebapp.csproj", "{D9694BB7-480C-4E25-A98E-3AAAD323E060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B5E935E6-AEDE-4190-AF1D-EBC06FA50E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E935E6-AEDE-4190-AF1D-EBC06FA50E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E935E6-AEDE-4190-AF1D-EBC06FA50E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895858F1-C657-4663-A1F3-DD0EF4A69B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895858F1-C657-4663-A1F3-DD0EF4A69B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895858F1-C657-4663-A1F3-DD0EF4A69B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895858F1-C657-4663-A1F3-DD0EF4A69B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9694BB7-480C-4E25-A98E-3AAAD323E060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9694BB7-480C-4E25-A98E-3AAAD323E060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9694BB7-480C-4E25-A98E-3AAAD323E060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9694BB7-480C-4E25-A98E-3AAAD323E060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

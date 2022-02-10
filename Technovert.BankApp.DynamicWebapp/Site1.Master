@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Technovert.BankApp.DynamicWebapp.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       
+        <header id ="header1" class ="container-fluid">
+            <h1 id ="headertext">TECHNOVERT</h1>
+        </header>
+        <div>
+            
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="WebForm1.aspx"><b>HOME </b></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Services.aspx"><b>SERVICES</b></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Careers.aspx"><b>CAREERS</b></a>
+                      </li>
+                        <li class="nav-item active">
+                        <a class="nav-link" href="Contact.aspx"><b>CONTACT</b></a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-brand">
+                    <img src="images/blog-icon.png" alt="Logo" />
+                       </ul>  
+                        
+                    </div>
+
+            </nav>
+            <br/>
+        </div>
+
+
+
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+    </form>
+</body>
+</html>
