@@ -70,7 +70,16 @@
     <Content Include="Careers.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\styles.css" />
+    <Content Include="images\bg.jpg" />
     <Content Include="images\blog-icon.png" />
+    <Content Include="images\casestudies_industries-column1.jpg" />
+    <Content Include="images\casestudies_industries-column2.jpg" />
+    <Content Include="images\homepage.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\services.jpg" />
+    <Content Include="images\tile1.png" />
+    <Content Include="images\tile2.png" />
+    <Content Include="images\tile3.png" />
     <Content Include="Services.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
